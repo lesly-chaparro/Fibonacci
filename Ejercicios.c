@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
-	printf("Hello world \n");
-	system ("pause");
-	return 0;
+void main(void) {
+	int piolin=0;
+	printf ("Mi variable tiene el valor de %i", piolin);
 }
