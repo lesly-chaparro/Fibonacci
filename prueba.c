@@ -5,4 +5,7 @@ Prueba 2
 void main(void){
     int piolin = 0;
     printf ("La variable piolin vale %i",piolin);
+    
+    piolin = 100;
+    printf("\n La variable piolin 2 vale %i", piolin);
 }
