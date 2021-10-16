@@ -20,6 +20,6 @@ for(cont=0; cont<stop;cont++){
     x=y;
     y=z;
 }
-getchar();
+    getchar();
     return 0;
 }
