@@ -14,14 +14,14 @@ int main(){
     printf("cuantos numeros deseas? ");
     scanf("%i",&numero);
 
-    printf("0\n 1\n");
+    printf("0\n");
 
-    for (i = -1; i <=numero; i++){
+    for (i = 1; i <numero; i++){
         z=x+y;
         x=y;
         y=z;
 
-        printf("%i , ",z);
+        printf("%i\n",z);
     }
     
     return 0;
