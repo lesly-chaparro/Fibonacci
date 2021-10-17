@@ -1,24 +1,27 @@
+/*Sucesión de Fibonacci
+Lesly Moreno*/
+
 #include <stdio.h>
+int main(){
+    //Declaración de variables
+    int numero, i, x, y,z;
+    x = 0;
+    y = 1;
+    z = 1;
+    
+    printf("cuántos numeros deseas: ");
+    scanf("%i",&numero);
 
-//Sucesión de Fibbonacci
-int x = 0;
-int y = 1;
-int z = 0;
+    printf("1 , ");
 
-    int fibi(){
+    for (i = 1; i < numero; i++)
+    {
         z=x+y;
         x=y;
         y=z;
-        return z;
+
+        printf("%i , ",z);
     }
-int main(){
-    int numero;
-    printf("¿Cuántos números quieres?\n");
-    scanf("%i",numero);
-    for (int i=0; i<numero; i++);
-    {
-        printf("%d\n",fibi);
-    }
-}
+    
     return 0;
 }
